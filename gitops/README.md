@@ -1,0 +1,1 @@
+# gitops — ArgoCD Application manifests
