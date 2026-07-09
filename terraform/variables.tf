@@ -34,3 +34,8 @@ variable "availability_zones" {
   description = "Availability zones to spread subnets across (minimum 2, required by EKS)"
   type        = list(string)
 }
+
+variable "cluster_name" {
+  description = "The name of the EKS cluster"
+  type        = string
+}
